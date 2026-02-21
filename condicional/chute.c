@@ -15,8 +15,7 @@ int main (){
         else if ((menor_maior > num) && (num > num_sorteado)){    
             menor_maior = num;
             }
-        printf("%d",maior_menor);
-        printf(" - %d",menor_maior);
+        printf("%d - %d",maior_menor,menor_maior);
         printf("\ndigite um numero: ");
         scanf("%d", &num);
         if(num != num_sorteado){
@@ -29,8 +28,7 @@ int main (){
                 
                 menor_maior = num;
                 }
-            printf("%d",maior_menor);
-            printf(" - %d",menor_maior);
+            printf("%d - %d",maior_menor,menor_maior);
             printf("\ndigite um numero: ");
             scanf("%d", &num);
             if(num != num_sorteado){
@@ -43,8 +41,7 @@ int main (){
                     
                     menor_maior = num;
                     }
-                printf("%d",maior_menor);
-                printf(" - %d",menor_maior);
+                printf("%d - %d",maior_menor,menor_maior);
                 printf("\ndigite um numero: ");
                 scanf("%d", &num);
                 
