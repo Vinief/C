@@ -1,12 +1,14 @@
 #include <stdio.h> 
-#include <stdbool.h>
+
 int main (){
-    double altura;
-    double peso;
+    double altura, peso;
+    
     printf("digite sua altura em metros:");
     scanf("%lf", &altura);
+    
     printf("digite seu peso em kg:");
     scanf("%lf", &peso);
+    
     double imc = peso/(altura*altura);
     if (16 > imc)
     {
@@ -41,5 +43,6 @@ int main (){
         printf("Obesidade Grau III");
     }
     printf("\n");
+    return 0;
 }
    
